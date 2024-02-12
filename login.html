@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Login</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td id="left">
+                    <div id="blank"></div>
+                    <img src="images/rassb_main_page.jpeg" alt="">
+                </td>
+                <td id="form">
+                    <div id="divi">
+                        <!-- <p id="rassb">RASSB</p> -->
+                        <center><img id="logo" src="images/rassb_logo.png" alt=""></center>
+                        <center><p id="rassb_tag">Welcome to <span id="rassb">RASSB</span></p></center>
+                        <form action="php/process.php" method="POST">
+                            <p>Student ID</p>
+                            <input type="text" name="uid" size="30" required><br>
+                            <p>Password</p>
+                            <input type="password" name="password" size="30" required><br>
+                            <center><input id="submit" type="submit" value="Sign in"></center>
+                        </form>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
